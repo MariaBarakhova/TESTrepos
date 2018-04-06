@@ -19,5 +19,14 @@ html, body {height: 100px;
   display: inline-block;
   background-color: red;
 }
-.sidebar{float: left}
-.main{float: right}
+.sidebar{float: left;
+  width: 30%;
+  background: #cccccc;
+}
+.main{float: right;
+  width: calc(70% - 15px);
+  background: #cccccc; }
+
+.container{width: 100%;
+  float: right}
+.footer {float: left; width: 100%}
