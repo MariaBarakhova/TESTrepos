@@ -19,4 +19,5 @@ html, body {height: 100px;
   display: inline-block;
   background-color: red;
 }
-.sidebar{}
+.sidebar{float: left}
+.main{float: right}
