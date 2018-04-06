@@ -2,8 +2,21 @@
 
 
 .test p:nth-child(1) {
-  background: red;
 }
 
+html, body {height: 100px;
+  margin: 0;
+  padding: 0;
 
+}
+.header{border-bottom: 1px solid #cccccc;
+  padding: 15px;
+  text-align: center;
 
+}
+.header_title{ margin: 0;
+  padding: 5px 15px;
+  display: inline-block;
+  background-color: red;
+}
+.sidebar{}
