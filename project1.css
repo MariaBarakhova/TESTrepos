@@ -12,7 +12,7 @@ p {
     margin: 0;
 }
 body {
-    font-family: 'Roboto', ;
+    font-family: 'Roboto', serif;
 }
 .clearfix:after{
     display: block;
@@ -29,7 +29,7 @@ body {
 }
 .table_row > div {
     height: 200px;
-    background-color: green;
+    background-color: lightslategrey;
     display: table-cell;
     vertical-align: middle;
 }
@@ -68,5 +68,10 @@ body {
 .nav li:last-child a{
     margin-right: 0;
     font-size: 16px;
+
+}
+.container{
+    margin: 0 20px 0 20px;
+    background-color: gainsboro;
 
 }
