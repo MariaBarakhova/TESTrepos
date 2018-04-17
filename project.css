@@ -1,0 +1,167 @@
+.html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul, h1, h2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', ;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.table {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+.table_row {
+    display: table-row;
+}
+.table_row > div {
+    height: 200px;
+    background-color: green;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: #40c3ba;
+    position: relative;
+}
+.phone {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.subheader{
+    padding: 15px;
+    background-color: #888e9f;
+}
+.colLeft {
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    font-size: 16px;
+    transition: all 0.3s;
+    display: block;
+    padding: 10px;
+    background-color: #a1a1a1;
+}
+
+.nav li a:hover{
+    background-color: darksalmon;
+}
+.nav li:last-child a{
+    margin-right: 0;
+    font-size: 16px;
+}
+
+.wrapper{
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.wrapper .main{
+    float: left;
+    width: 70%;
+    background-color: #085699;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    background-color: #4eabda;
+}
+.container {
+    padding: 0 15px;
+    background-color: #3cc395;
+}
+.post {
+padding: 15px;
+}
+
+.post .post_header{
+    padding: 15px;
+    background-color: #a1a1a1;
+    margin-bottom: 15px;
+
+}
+ .post .post_header .post_title{
+     float: left;
+ }
+.post .post_header .date{
+    float: right;
+}
+.post .post_avatar{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.post .post_body {
+    padding: 15px;
+}
+
+.post .post_wrrappaAvatar{
+    float: left;
+}
+.post_right {
+    float: right;
+}
+.sidebar .sidebar_head{
+    padding: 15px;
+}
+.sidebar .sidebar_body{
+    padding: 0 15px;
+}
+.sidebar .sidebar_list li a{
+    display: block;
+    background: gray;
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+}
+.sidebar .sidebar_list li{
+    font-size: 16px;
+    transition: all 0.3s;
+    display: block;
+    padding: 10px;
+    background-color: #a1a1a1;
+    border-radius: 20px;
+}
+.sidebar .sidebar_list li:hover{
+    background-color: #085699;
+}
+.boxes{
+    margin: 0 -15px;
+}
+.row {
+    margin-bottom: 15px;
+}
+
+.boxes .box{
+    float: left;
+    width: calc(33.3% - 30px);
+    height: 200px;
+    background-color: yellow;
+    margin: 0 15px;
+}
