@@ -13,10 +13,10 @@ ul {
     background-color: #1d2126;
     position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 81px;
+    flex-direction: row;
 }
 .nav{
     flex-direction: row;
@@ -27,7 +27,13 @@ ul {
     color: #a4aead;
     font-weight: 600;
     text-decoration: none;
-    margin: 20px;
+    margin: 18px;
+    border:2px;
+    border-style: solid;
+    border-color: #1d2126;
+    border-radius: 4px;
+    padding: 8px 10px;
+    flex-wrap: wrap;
 }
 .nav li a:hover{
     border:2px;
@@ -73,6 +79,11 @@ ul {
  .banner_text{
      margin: 30px 0 40px 0;
  }
+ .bottoms{
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+ }
 .bottoms a{
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 14pt;
@@ -88,4 +99,8 @@ ul {
 .bottoms a:hover{
     background-color: #23b7a4;
     border-color: #23b7a4;
+}
+.alignment{
+    max-width: 1900px;
+    margin-left: 20%;
 }
