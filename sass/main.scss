@@ -7,16 +7,69 @@
       .head {
         margin-bottom: 60px;
       }
-      .boxes {
-        display: flex;
-        .itemBox {
-          .image {
-            img {
-              width: 260px;
-              height: 300px;
-            }
-          }
-        }
+         .boxes {
+            display: flex;
+                .itemBox {
+                     .image {
+                         position: relative;
+                         img {
+                            width: 260px;
+                            height: 300px;
+                            display: block;
+                            }
+                            .hideBlock {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: #ffffff;
+                                opacity: 0.5;
+                                display: none;
+                            }
+                        }
+                        .btn_container{
+                            display: flex;
+                            align-items: center;
+                            width: 180px;
+                            height: 180px;
+                            .btn{
+                            width: 60px;
+                            height: 60px;
+                            background-color: grey;
+                            }
+                        }
+                        &:hover {
+                            .hideBlock{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .footer{
+                            background-color: black;
+                        p{
+                            color: #ffffff;
+                        }
+                        }
+                        
+                    }
+
+                                .footer{    
+                                    padding: 20px;
+                                    background-color: gray;
+                                    .name{
+                                        font-size: 16px;
+                                        text-transform: uppercase;
+                                        color: #292f36;
+                                        margin-bottom: 5px;
+                                    }
+                                        .position{
+                                        font-size: 14px;
+                                        color:  #8d8f92;
+                                        }
+                                }
+         }
+        
       }
     } 
   }

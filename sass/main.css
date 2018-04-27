@@ -16,8 +16,68 @@
   display: flex;
 }
 
+.team .wrapper .boxes .itemBox .image {
+  position: relative;
+}
+
 .team .wrapper .boxes .itemBox .image img {
   width: 260px;
   height: 300px;
+  display: block;
+}
+
+.team .wrapper .boxes .itemBox .image .hideBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.5;
+  display: none;
+}
+
+.team .wrapper .boxes .itemBox .btn_container {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+}
+
+.team .wrapper .boxes .itemBox .btn_container .btn {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+}
+
+.team .wrapper .boxes .itemBox:hover .hideBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .wrapper .boxes .itemBox:hover .footer {
+  background-color: black;
+}
+
+.team .wrapper .boxes .itemBox:hover .footer p {
+  color: #ffffff;
+}
+
+.team .wrapper .boxes .itemBox .footer {
+  padding: 20px;
+  background-color: gray;
+}
+
+.team .wrapper .boxes .itemBox .footer .name {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #292f36;
+  margin-bottom: 5px;
+}
+
+.team .wrapper .boxes .itemBox .footer .position {
+  font-size: 14px;
+  color: #8d8f92;
 }
 /*# sourceMappingURL=main.css.map */
