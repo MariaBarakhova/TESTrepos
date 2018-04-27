@@ -1,0 +1,199 @@
+/*http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    max-width: auto;
+    height: auto;
+}
+.body{
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background: #1d2126;
+    padding: 23px 15px;
+}
+.header .wrapper{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+.header .wrapper .logo{
+    width: 100px;
+    height: 18px;
+}
+.header .nav{
+    display: flex;
+}
+.header .nav a{
+    margin-right: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+.header .nav a:hover{
+    border-color: #23b7a4;
+
+}
+.header .nav a:last-child{
+    margin-right: 0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    padding: 30px 15px;
+    background: url("pic.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner .wrapper{
+    max-width: 1130px;
+    margin: 0 auto;
+    flex: 1;
+}
+.banner .wrapper .banner_title{
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner .subText {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.banner .buttons{
+    display: flex;
+    align-items: center;
+
+}
+.banner .buttons .btn{
+    transition: all 0.3s;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    border: 2px solid #ffffff;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.banner .buttons .btn:hover{
+    background: #23b7a4;
+    border-color: transparent;
+}
+.about{
+    padding: 70px 15px;
+    border: 1px solid #cccccc;
+}
+.about .wrapper{
+    max-width: 1130px;
+    margin: 0 auto;
+
+}
+.about .leftCol{
+    width: 60%;
+    padding: 15px;
+}
+.about .rightCol{
+    width: 60%;
+}
+.about .head{
+    margin-bottom: 60px;
+}
+.about .head .title{
+    padding-left: 20px;
+    position: relative;
+    font-size: 36px;
+    color: #292f36;
+    text-transform: uppercase;
+}
+.about .head .title:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: grey;
+    width: 10px;
+    height: 100%;
+
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .text{
+    color: grey;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.box{
+    display: flex;
+}
+
+
+
+@media (max-width:480px){
+    .header{
+        padding: 10px 15px;
+    }
+    .header .nav a{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,22 @@
+.team {
+    padding: 70px 15px;
+    border-bottom: 1px solid #dde1e4;
+    .wrapper {
+      max-width: 1130px;
+      margin: 0 auto;
+      .head {
+        margin-bottom: 60px;
+      }
+      .boxes {
+        display: flex;
+        .itemBox {
+          .image {
+            img {
+              width: 260px;
+              height: 300px;
+            }
+          }
+        }
+      }
+    } 
+  }

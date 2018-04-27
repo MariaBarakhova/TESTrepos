@@ -1,0 +1,23 @@
+.team {
+  padding: 70px 15px;
+  border-bottom: 1px solid #dde1e4;
+}
+
+.team .wrapper {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.team .wrapper .head {
+  margin-bottom: 60px;
+}
+
+.team .wrapper .boxes {
+  display: flex;
+}
+
+.team .wrapper .boxes .itemBox .image img {
+  width: 260px;
+  height: 300px;
+}
+/*# sourceMappingURL=main.css.map */
