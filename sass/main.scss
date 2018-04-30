@@ -73,3 +73,21 @@
       }
     } 
   }
+.lovelyWork{
+
+}
+.about .head .title{
+    padding-left: 20px;
+    position: relative;
+    font-size: 36px;
+    color: #292f36;
+    text-transform: uppercase;
+}
+.about .head .title:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: grey;
+    width: 10px;
+    height: 100%;
